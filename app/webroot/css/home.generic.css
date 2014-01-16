@@ -1,0 +1,262 @@
+body
+{		
+	margin : 0px;
+	background-color:#16385D;
+	background-repeat: repeat;	
+}
+
+li
+{
+	display: inline-block;
+}
+
+.page
+{	
+	margin-left:280px;
+	margin-right:280px;
+	background-color:white;
+}
+
+#logoimage
+{
+	height : 85px;
+	width:300px;
+	float:left;
+}
+
+#head
+{
+	font:40px normal museo_slab300;
+	color:#E45551;
+	padding-top:10px;
+	margin-left:680px;
+}
+
+#underhead
+{
+	font-family: 'museo_slab300';
+	color:#16385D;
+	font-size : 16px;
+	padding-right:20px;
+	padding-bottom:10px;
+	font-style: italic;
+	margin-left:775px;
+}
+
+#linkdiv
+{
+	background-color: #9AB206;
+	margin-top:10px;
+	height: 60px;
+}
+
+.link
+{
+	padding-top:20px;
+	padding-right:20px;
+	color:white;
+	font-size:20px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:visited, a:link
+{
+	color:white;
+}
+
+#slidediv
+{
+	text-align:center;
+	margin-top:15px;
+	height:400px;
+	overflow:hidden;
+}
+
+.imgslide
+{
+	width:980px;
+	height:400px;
+}
+
+#subhead
+{
+	font-family: SegoeUIRegular;
+	font-style: italic;
+	color:#16385D;
+	font-size:30px;
+	margin:20px 20px 0px 20px;
+	padding-bottom:10px;
+	Border-bottom:2px solid #9AB206;
+}
+
+.packageimg
+{
+	height:150px;
+	width:230px;
+}
+
+.homepackage
+{
+	padding-top:20px;
+	margin-bottom: 20px;
+}
+
+.homepackagediv
+{
+	width:230px;
+	margin-right:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.packagename
+{
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #094D86;
+	height:30px;
+	padding-top:10px;
+	text-align:center;
+}
+
+.packagetext
+{
+	background-color:#dfe5ea;
+	text-align:justify;
+	padding-bottom:60px;
+	padding-top:20px;
+	padding-left:5px;
+	font-size: 14px;
+}
+
+.packagelink
+{
+	background-color: #094D86;
+	height:40px;
+	padding-top:20px;
+	padding-left:5px;
+	text-align:center;
+}
+
+.homepackage .homepackagediv .packagelink a
+{
+	color: white;	
+	text-decoration: none;
+	padding-right:11px;
+	
+}
+
+.leh-ladakh
+{
+	background-color: #9AB206;
+}
+.leh-ladakhtext
+{
+	background-color:#EFF0DC
+}
+
+.kerala
+{
+	background-color:#FFB200;
+}
+
+.keralatext
+{
+	background-color:#FAF0DB;
+}
+
+.Goa
+{
+	background-color:#CC0000;
+}
+
+.Goatext
+{
+	background-color:#F7E6E4;
+}
+
+.morepackage
+{
+	text-align: right;
+	padding-right:30px;
+	padding-bottom:50px;
+}
+
+.page .morepackage a, .page .data  a  , .page .bookinglink a
+{
+	color: blue;
+	text-decoration:underline;
+}
+
+p
+{
+	text-align:justify;
+	padding-right:20px;
+	font-size: 18px;
+	line-height:1.5;
+	font-family:Times New Roman;
+	margin-bottom:20px;
+}
+
+.data
+{
+	padding-right:20px;
+	background-color:#FAF0DB;
+}
+
+.name
+{
+	padding-top:20px;
+	margin-bottom:15px;
+	font-size:20px;
+	color:#E45551;
+	margin-top:40px;
+}
+
+.tourdara
+{
+	font-size:16px;
+	margin-bottom:20px;
+}
+
+.place
+{
+	padding-bottom:20px;
+}
+
+.tourlink
+{
+	float:right;
+}
+
+.bookinglink
+{
+	margin: 20px 0 20px 20px;	
+	font-size: 16px;
+}
+
+.fname
+{
+	margin: 20px 0 20px 0;
+}
+.forminfo
+{
+	position:absolute;
+	left:370px;
+}
+.btn
+{
+	Margin-bottom:60px;
+}
+#logoimage , #head , .link , .homepackage, .morepackage , p , .data , .form 
+{
+	padding-left : 20px;
+}
+.link, .packagename, .packagetext, .packagelink, .tourdara, .name, .bookinglink
+{
+	font-family: helvetica;
+}

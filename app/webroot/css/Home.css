@@ -1,0 +1,202 @@
+body {		
+	margin : 0;
+	background-color:#16385D;
+}
+#container {
+	
+	margin: 0 280px;
+	background-color:white;
+}
+header{
+	font-family:museo_slab300;
+}
+header>h1 {
+	color:#E45551;
+	font:40px normal;
+	text-align:right;
+	padding:20px 20px 0 0;	
+	margin-bottom:0;
+}
+header>h2 {
+	text-align: right;	
+	color:#16385D;
+	font-size : 16px;
+	font-style: italic;
+	padding-right:20px;
+	margin-top:0px;
+}
+#logoimage {
+	height : 85px;
+	width:300px;
+	float:left;
+}
+nav {
+	background-color: #9AB206;
+	margin-top:10px;
+	height: 60px;
+}
+li {
+	display: inline-block;
+	padding:20px 20px 17px 20px;
+	color:white;
+	font-size:20px;
+}
+#active{
+	background-color:#808563;
+}
+a{
+	text-decoration: none;
+}
+a:visited, a:link {
+	color:white;
+}
+#slidediv {
+	text-align:center;
+	margin-top:15px;
+	height:350px;
+	overflow:hidden;
+}
+.imgslide {
+	width:980px;
+	height:350px;
+}
+#content {
+	padding:0 10px;
+}
+#subhead {
+	font-family: SegoeUIRegular;
+	font-style: italic;
+	color:#16385D;
+	font-size:30px;
+	margin:20px 20px 10px 20px;
+	padding-bottom:10px;
+	Border-bottom:2px solid #9AB206;
+}
+p{
+	text-align:justify;
+	font-size: 18px;
+	line-height:1.5;
+	font-family:Times New Roman;
+	margin-bottom:20px;
+	padding-right:20px;
+}
+#content>.homepackage
+{
+	padding-top:10px;
+	padding-left:10px;
+	margin-bottom: 20px;
+	
+}
+#content>.homepackage>li
+{
+	width:230px;	
+	padding:0px 0px;
+	margin:20px 6px 0 6px;
+}
+#content>.homepackage>li>.homepackagediv {
+	height:150px;
+}
+.packageimg {
+	height:150px;
+	width:230px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.packagename {
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #094D86;
+	height:30px;
+	padding-top:10px;
+	text-align:center;
+}
+.packagetext {
+	height:30px;
+	background-color:#dfe5ea;
+	text-align:justify;	
+	padding:20px 0 60px 5px;	
+	font-size: 14px;
+	color:black;
+}
+.packagelink {
+	background-color: #094D86;
+	height:40px;
+	padding-top:20px;
+	padding-left:5px;
+	text-align:center;
+	font-size:16px;
+}
+.homepackage .homepackagediv .packagelink a {
+	color: white;	
+	text-decoration: none;
+	padding-right:11px;	
+}
+.leh-ladakh {
+	background-color: #9AB206;
+}
+.leh-ladakhtext {
+	background-color:#EFF0DC
+}
+.kerala {
+	background-color:#FFB200;
+}
+.keralatext {
+	background-color:#FAF0DB;
+}
+.Goa {
+	background-color:#CC0000;
+}
+.Goatext {
+	background-color:#F7E6E4;
+}
+.morepackage {
+	text-align: right;
+	padding-right:30px;
+	padding-bottom:50px;
+}
+#content .morepackage a, #container .data  a  , #container .bookinglink a
+{
+	color: blue;
+	text-decoration:underline;
+}
+.data {
+	padding-right:20px;
+	background-color:#FAF0DB;
+}
+.name {
+	padding-top:20px;
+	margin-bottom:15px;
+	font-size:20px;
+	color:#E45551;
+	margin-top:40px;
+}
+.tourdara{
+	font-size:16px;
+	margin-bottom:20px;
+}
+.place{
+	padding-bottom:20px;
+}
+.tourlink{
+	float:right;
+}
+.bookinglink{
+	margin: 20px 0 20px 20px;	
+	font-size: 16px;
+}
+.fname{
+	margin: 20px 0 20px 0;
+}
+.forminfo{
+	position:absolute;
+	left:370px;
+}
+.btn{
+	Margin-bottom:60px;
+}
+#logoimage , #head , .link , .homepackage, .morepackage , p , .data , .form  {
+	padding-left : 20px;
+}
+.link, .packagename, .packagetext, .packagelink, .tourdara, .name, .bookinglink {
+	font-family: helvetica;
+}

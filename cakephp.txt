@@ -1,0 +1,2 @@
+http://www.sitepoint.com/rapid-application-development-with-cakephp/			//database configuration of cakephp
+http://www.packtpub.com/article/create-a-quick-application-in-cakephp-1			//Best For begginers to learn cakephp
